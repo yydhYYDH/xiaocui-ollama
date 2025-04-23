@@ -40,7 +40,7 @@
 				</button>
 			</div>
 			<div class=" flex-1 self-center font-medium text-ellipsis whitespace-nowrap overflow-hidden">
-				{title != "" ? title : "Ollama Web UI"}
+				{title != "" ? title : "小萃智能助手网页版"}
 			</div>
 		</div>
 	</div>

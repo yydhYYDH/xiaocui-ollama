@@ -365,7 +365,7 @@
 			if (messages.length == 1) {
 				await $db.createNewChat({
 					id: _chatId,
-					title: 'New Chat',
+					title: '新建对话',
 					models: selectedModels,
 					system: $settings.system ?? undefined,
 					options: {

@@ -348,7 +348,7 @@
 			/>
 		</div>
 		<div class=" mt-2 text-2xl text-gray-800 dark:text-gray-100 font-semibold">
-			How can I help you today?
+			小萃智能助手能为你做些什么？
 		</div>
 	</div>
 {:else}
@@ -377,11 +377,12 @@
 					<div class="w-full overflow-hidden">
 						<div class=" self-center font-bold mb-0.5">
 							{#if message.role === "user"}
-								You
+								我
 							{:else}
-								Ollama <span class=" text-gray-500 text-sm font-medium"
+								小萃智能助手 
+								<!-- 小萃智能助手 <span class=" text-gray-500 text-sm font-medium"
 									>{message.model ? ` ${message.model}` : ""}</span
-								>
+								> -->
 							{/if}
 						</div>
 

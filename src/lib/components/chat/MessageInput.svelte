@@ -48,7 +48,7 @@
 						<textarea
 							id="chat-textarea"
 							class=" dark:bg-gray-800 dark:text-gray-100 outline-none w-full py-3 px-2 pl-4 rounded-xl resize-none"
-							placeholder="Send a message"
+							placeholder="发送消息"
 							bind:value={prompt}
 							on:keypress={(e) => {
 								if (e.keyCode == 13 && !e.shiftKey) {
@@ -111,7 +111,8 @@
 				</form>
 
 				<div class="mt-1.5 text-xs text-gray-500 text-center">
-					LLMs can make mistakes. Verify important information.
+					<!-- LLMs can make mistakes. Verify important information. -->
+					小萃智能助手可能会犯错误，请仔细核实重要信息。
 				</div>
 			</div>
 		</div>
